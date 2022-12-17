@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Paytone+One&family=Playfair+Display:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+li.icon-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin: 22px;
+    
+}
+ul.icon {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -55px;
+}
+header{
+    margin-inline: auto;
+    width: 750px;
+    height: 1500px;
+    background: rgb(230,207,93);
+    background: radial-gradient(circle, rgba(230,207,93,0.908000700280112) 0%, rgba(127,6,249,0.9051995798319328) 100%);
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.icon li.icon-item .pic {
+width: 200px;
+height: 200px;
+border-radius: 100px;
+align-items: center;
+justify-content: center;
+}
+div {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background:white;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+    color:#8B0000;
+}
+
+
+nav {
+    width: 600px;
+}
+
+
+li {
+    transition: 1.18s;
+}
+li:hover {
+
+    transform: scale(1.2);
+    width: 200px;
+    height: 250px;
+    background: #eeeeeecc;
+    border-radius: 11px;
+    transition: all 0.7s ease;
+    
+}
+
+
+.pic{
+    transition: 1s;
+}
+ul.icon li:hover .pic{
+    border-radius: 48px;
+    transition: all 1.4s ease;
+}
+
+.all {
+    position:absolute;
+    display: none;
+    color: rgb(30, 161, 80);
+    margin-top: 225px;  
+}
+ul.icon li:hover .all{
+   display: block;
+}
+ h6 {
+    width:18em ;
+    display: flex;
+    justify-content: center;
+}
